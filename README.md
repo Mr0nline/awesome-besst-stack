@@ -1,5 +1,7 @@
 # Awesome BESST Stack
 
+> NOTE: This stack is not production ready as of now since many technologies are relatively new thus having a very smaller ecosystem, While it may be a best fit for small and personal projects, I highly recommend to use classic MERN/MEAN stack until this stack is production ready!
+
 Welcome to the BESST Stack repository, your gateway to modern web development excellence. BESST stands for **Bun**, **Elysia**, **Sveltekit**, **Surreal DB**, and **TypeScript**. This stack represents a powerful combination of technologies to help you craft exceptional web applications with speed, efficiency, and flexibility.
 
 ## Table of Contents
