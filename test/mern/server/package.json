@@ -1,0 +1,26 @@
+{
+  "name": "besst-stack-test-mern-server",
+  "version": "1.0.0",
+  "description": "Backend server for social network project using MongoDB, Express and SocketIO",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mr0nline/awesome-besst-stack.git"
+  },
+  "keywords": [
+    "node",
+    "express"
+  ],
+  "author": "Mr0nline",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mr0nline/awesome-besst-stack/issues"
+  },
+  "homepage": "https://github.com/Mr0nline/awesome-besst-stack#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
