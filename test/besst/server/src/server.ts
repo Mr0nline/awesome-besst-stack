@@ -1,8 +1,9 @@
 import { Elysia, t } from "elysia";
-import { cors } from "@elysiajs/cors";
+
+// import { cors } from "@elysiajs/cors";
 
 const app = new Elysia()
-  .use(cors())
+  // .use(cors())
   .get("/something/here", () => "Elysia")
   .post("/array", ({ body }) => body, {
     body: t.String(),
@@ -188,4 +189,5 @@ const app = new Elysia()
     }),
   })
   .listen(8080, () => console.log("Listening on 8080"));
+export type appType = typeof app;
 export default app;

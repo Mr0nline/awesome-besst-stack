@@ -1,5 +1,5 @@
 import { treaty } from '@elysiajs/eden';
-import type { appType } from '../../../../../server/src/index';
+import type { appType } from '@server/index';
 
 const eden = treaty<appType>(
 	typeof window === 'undefined' ? `http://localhost:8080` : window.location.origin
@@ -7,11 +7,7 @@ const eden = treaty<appType>(
 
 const { data } = await eden.products.nendoroid.skadi.get({
 	query: {
-		username: 'a'
+		username: ''
 	}
 });
 console.log('😊 -> a:', data);
-
-// console.log(a)
-
-// console.log(await eden.array.post('hi'));
