@@ -55,7 +55,7 @@ const app = new Elysia()
           message: t.String(),
         }),
       },
-    }
+    },
   )
   .post("/mirror", ({ body }) => body, {
     body: t.Object({
@@ -106,7 +106,7 @@ const app = new Elysia()
           id: t.String(),
         }),
       },
-    }
+    },
   )
   .group("/group", (app) => app.get("/in", () => "Hi"))
   .ws("/ws/mirror", {
@@ -146,7 +146,7 @@ const app = new Elysia()
         200: "success",
         400: "fail",
       },
-    }
+    },
   )
   .ws("/chat", {
     open(ws) {
